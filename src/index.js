@@ -1,19 +1,14 @@
-import React, {Component} from "react"
-import ReactDOM from "react-dom"
-import App from "./App"
-import reportWebVitals from "./reportWebVitals"
-import "./index.css"
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+
+import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root')
 );
-
-class Cat extends Component{
-    render(){
-        return <h1>Hello iam a cat!</h1>
-    }
-}
